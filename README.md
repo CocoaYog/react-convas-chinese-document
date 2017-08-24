@@ -1,4 +1,4 @@
-# react-convas-chinese-documents
+# react-convas-chinese-document
 # react-canvas 中文文档
 
 
@@ -12,12 +12,15 @@ React Canvas增加了React组件渲染到`canvas`而不是DOM的能力。
 ## 目的
 
 构建面向移动设备的界面有悠久的历史，我们发现与本地应用程序相比，移动Web应用程序感觉缓慢的原因是DOM。 CSS动画和过渡是在Web上实现平滑动画的最快途径，但它们有一些限制。 React Canvas利用现代移动浏览器拥有硬件加速画布的事实。
+
 虽然还有其他将画布绘图API绑定到React的尝试，但是它们更侧重于可视化和游戏。React Canvas的不同之处在于重点构建应用程序用户界面。事实上，它是对渲染到convas上行为的具体实现。
+
 React Canvas带来了Web开发人员熟悉的一些API，并将它们与高性能绘图引擎混合在一起。
 
 ## 安装
 
 React Canvas可通过npm获得：
+
 `npm install react-canvas`
 
 ## React Canvas 组件
@@ -58,8 +61,11 @@ React Canvas提供了一组标准的React组件，这些组件是底层渲染实
 **ListView**是一个触摸滚动容器，用于呈现列中的元素列表。你可以把它理解为web端的UITableView(注：UITableView是ios的表视图组件）。它使用了许多相同的优化，可以像iOS上的表视图和Android上的列表视图一样快速。
 ## 事件
 React Canvas组件支持与正常的React组件相同的事件模型。但是，并不是所有的事件类型都被支持。
+
 有关支持的事件的完整列表，请参阅[EventTypes](https://github.com/Flipboard/react-canvas/blob/master/lib/EventTypes.js)。
+
 ## 构建组件
+
 这是一个将文本呈现在图像下方 的简单组件：
 
 ```javascript
